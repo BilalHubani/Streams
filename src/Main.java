@@ -37,6 +37,7 @@ public class Main {
         System.out.println("");
         System.out.println("Jugadores ordenados por numero de canastas:");
         List<Jugador> ordenCanastas = jugadores.stream().sorted(Comparator.comparing(Jugador::getNumCanastas)).collect(Collectors.toList());
+        System.out.println(ordenCanastas);
         System.out.println("");
 
 
