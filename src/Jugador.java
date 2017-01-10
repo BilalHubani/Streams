@@ -47,4 +47,14 @@ public class Jugador {
         this.numCanastas = numCanastas;
         this.equipo = equipo;
     }
+
+    @Override
+    public String toString() {
+        return "Jugador{" +
+                "nombre='" + nombre + '\'' +
+                ", fechaNacimiento=" + fechaNacimiento +
+                ", numCanastas=" + numCanastas +
+                ", equipo=" + equipo +
+                '}'+'\n';
+    }
 }
