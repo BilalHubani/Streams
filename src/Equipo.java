@@ -25,4 +25,12 @@ public class Equipo {
         this.nombre = nombre;
         this.localidad = localidad;
     }
+
+    @Override
+    public String toString() {
+        return "Equipo{" +
+                "nombre='" + nombre + '\'' +
+                ", localidad='" + localidad + '\'' +
+                '}';
+    }
 }

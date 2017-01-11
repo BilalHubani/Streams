@@ -54,7 +54,7 @@ public class Jugador {
                 "nombre='" + nombre + '\'' +
                 ", fechaNacimiento=" + fechaNacimiento +
                 ", numCanastas=" + numCanastas +
-                ", equipo=" + equipo +
+                ", equipo=" + equipo.getNombre() +
                 '}'+'\n';
     }
 }
